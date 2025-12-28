@@ -41,9 +41,7 @@ Ensure the following are installed:
 3. Clone the Repository
 - Open the `IJC437-Assignment` file in your RStudio working directory.
 - To clone the repository from GitHub: git clone https://github.com/tsridhara1/IJC437-Assignment.git
-4. Open the Project
-- Open the Intnl_Football.Rproj file in RStudio.
-5. Run Analysis Scripts
+4. Run Analysis Scripts
 - RQ1.R
 - RQ2.R
 
