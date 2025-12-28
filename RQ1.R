@@ -1,5 +1,5 @@
 # 0) Load packages
-packages <- c("readxl", "dplyr", "tidyr", "sf", "stringr", "ggplot2", "scales", "colorspace", "ggrepel")
+packages <- c("readxl", "dplyr", "tidyr", "sf", "stringr", "ggplot2", "scales", "colorspace", "ggrepel", "giscoR")
 missing <- packages[!packages %in% rownames(installed.packages())]
 if (length(missing) > 0) install.packages(missing)
 library(readxl)
@@ -11,6 +11,7 @@ library(scales)
 library(colorspace)
 library(ggrepel)
 library(sf)
+library(giscoR)
 
 
 # 1) Load Excel file
@@ -365,4 +366,5 @@ ggplot(map_2025) +
     axis.text = element_blank(),
     axis.ticks = element_blank(),
     panel.grid = element_blank()
+
   )
