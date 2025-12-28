@@ -1,5 +1,5 @@
 # 0) Load packages
-packages <- c("readxl", "dplyr", "tidyr", "sf", "stringr", "ggplot2", "scales", "colorspace", "ggrepel")
+packages <- c("readxl", "dplyr", "tidyr", "sf", "stringr", "ggplot2", "scales", "colorspace", "ggrepel", "giscoR")
 missing <- packages[!packages %in% rownames(installed.packages())]
 if (length(missing) > 0) install.packages(missing)
 library(readxl)
@@ -11,6 +11,7 @@ library(scales)
 library(colorspace)
 library(ggrepel)
 library(sf)
+library(giscoR)
 
 
 # 1) Load Excel file
@@ -169,4 +170,5 @@ p_industry_2019 <- ggplot(plot_ind, aes(x = HorizonYears, y = SurvivalPct, group
   ) +
   theme_minimal(base_size = 12) +
   theme(panel.grid.minor = element_blank())
+
 print(p_industry_2019)
