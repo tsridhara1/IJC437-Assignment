@@ -38,10 +38,11 @@ Ensure the following are installed:
 2. Install R and R Studio
   - Download https://posit.co/download/rstudio-desktop/ (Windows/macOS).
   - Use your package manager (Linux).
-3. Clone the Repository
+4. Clone the Repository
 - Open the `IJC437-Assignment` file in your RStudio working directory.
+- Make sure the dataset 'businessdemographyexceltables2024.xlsx' is in the working directory
 - To clone the repository from GitHub: git clone https://github.com/tsridhara1/IJC437-Assignment.git
-4. Run Analysis Scripts
+5. Run Analysis Scripts
 - RQ1.R
 - RQ2.R
 
