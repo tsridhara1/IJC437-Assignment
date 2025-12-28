@@ -10,11 +10,11 @@ It leverages datasets from Kaggle to analyze key variables and patterns across t
 1. Exploratory Data Analysis (EDA)
 - Trend analysis of births, deaths, and net change in enterprises (2019-2024) by UK regions.
 - Multi-line time-series graphs 
-- Bar chart/rankings for regions - selected years
+- Bar chart/rankings for regions of selected years
 - Data summary tables showing the regions with the highest/lowest values
 
 2. Churn Analysis
-- Calculation of churn-type indicators with data about births and deaths (e.g. churn rate per region and year).
+- Calculation of churn-type indicators with data about births and deaths
 - Regional bar charts
 - Choropleth mapping 
 
