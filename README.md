@@ -45,10 +45,11 @@ Ensure the following are installed:
 5. Run Analysis Scripts
 - RQ1.R
 - RQ2.R
-
+- Make sure the dataset (businessdemographyexceltables2024.xlsx), 'RQ1.R' and 'RQ2.R' are in the working directory.
+- Note: You can see the working directory by using 'getwd()'.
 ### Key Insights
 RQ1:
-- Data for enterprise births and deaths reveal geographical variation in the regions of 2019-2024 with higher absolute values in regions like London and South East.
+- Data for enterprise births and deaths reveal geographical variation in the regions of 2019-2024, with higher absolute values in regions like London and the South East.
 - Churn rates point out areas that have high levels of “business dynamism,” which entails higher levels of births and deaths than the baseline, while other regions have lower churn rates compared to others.
 - Regression baseline model trained on the period 2019 to 2023 is likely to offer reasonable predictive power for 2024 birth rates for different regions but certainly is no substitute for a full-blown predictive model.
 - The 2025 net change forecasts are particularly model-sensitive to the short training period and structural changes that have been observed.
