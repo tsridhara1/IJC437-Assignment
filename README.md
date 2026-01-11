@@ -40,7 +40,7 @@ Ensure the following are installed:
   - Use your package manager (Linux).
 4. Clone the Repository
 - To clone the repository from GitHub: git clone https://github.com/tsridhara1/IJC437-Assignment.git
-- Open the `IJC437-Assignment` file in your RStudio working directory.
+- Open the `IJC437-Assignment' file in your RStudio working directory.
 5. Run Analysis Scripts
 - RQ1.R
 - RQ2.R
