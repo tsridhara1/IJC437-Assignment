@@ -1,5 +1,5 @@
 # A STUDY ON REGIONAL AND SECTORAL DYNAMICS OF THE UK ENTERPRISE DEMOGRAPHY (2019-2024)
-## This project analyses the UK Office for National Statistics (ONS) Business demography reference tables to understand how enterprise births, deaths, net enterprise change, and survival outcomes vary across UK regions over 2019–2024. 
+## This project analyses the UK Office for National Statistics (ONS) Business demography reference tables to understand how enterprise births, deaths, net enterprise change, and survival outcomes vary across sectors in the UK regions over 2019–2024. 
 
 ### Research Questions
 1.	How do enterprise births, deaths, total net change, and churn rates compare for different regions in the UK from 2019 to 2024, and to what extent can a regression model accurately forecast enterprise births in 2024 and the total net enterprise change in 2025?
